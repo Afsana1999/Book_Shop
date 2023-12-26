@@ -1,0 +1,99 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyName>BookShop.Application</AssemblyName>
+		<RootNamespace>BookShop.Application</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Folder Include="Feutures\Author\Commands\" />
+	  <Folder Include="Feutures\Author\Dtos\" />
+	  <Folder Include="Feutures\Author\Queries\" />
+	  <Folder Include="Feutures\Author\Validators\" />
+	  <Folder Include="Feutures\Auth\Commands\" />
+	  <Folder Include="Feutures\Auth\Dtos\" />
+	  <Folder Include="Feutures\Auth\Queries\" />
+	  <Folder Include="Feutures\Auth\Validators\" />
+	  <Folder Include="Feutures\BookImage\Commands\" />
+	  <Folder Include="Feutures\BookImage\Dtos\" />
+	  <Folder Include="Feutures\BookImage\Queries\" />
+	  <Folder Include="Feutures\BookImage\Validators\" />
+	  <Folder Include="Feutures\CartItem\Commands\" />
+	  <Folder Include="Feutures\CartItem\Dtos\" />
+	  <Folder Include="Feutures\CartItem\Queries\" />
+	  <Folder Include="Feutures\CartItem\Validators\" />
+	  <Folder Include="Feutures\Cart\Commands\" />
+	  <Folder Include="Feutures\Cart\Dtos\" />
+	  <Folder Include="Feutures\Cart\Queries\" />
+	  <Folder Include="Feutures\Cart\Validators\" />
+	  <Folder Include="Feutures\Category\Commands\" />
+	  <Folder Include="Feutures\Category\Dtos\" />
+	  <Folder Include="Feutures\Category\Queries\" />
+	  <Folder Include="Feutures\Category\Validators\" />
+	  <Folder Include="Feutures\Comment\Commands\" />
+	  <Folder Include="Feutures\Comment\Dtos\" />
+	  <Folder Include="Feutures\Comment\Queries\" />
+	  <Folder Include="Feutures\Comment\Validators\" />
+	  <Folder Include="Feutures\Country\Commands\" />
+	  <Folder Include="Feutures\Country\Dtos\" />
+	  <Folder Include="Feutures\Country\Queries\" />
+	  <Folder Include="Feutures\Country\Validators\" />
+	  <Folder Include="Feutures\Discount\Commands\" />
+	  <Folder Include="Feutures\Discount\Dtos\" />
+	  <Folder Include="Feutures\Discount\Queries\" />
+	  <Folder Include="Feutures\Discount\Validators\" />
+	  <Folder Include="Feutures\Format\Commands\" />
+	  <Folder Include="Feutures\Format\Dtos\" />
+	  <Folder Include="Feutures\Format\Queries\" />
+	  <Folder Include="Feutures\Format\Validators\" />
+	  <Folder Include="Feutures\Language\Commands\" />
+	  <Folder Include="Feutures\Language\Dtos\" />
+	  <Folder Include="Feutures\Language\Queries\" />
+	  <Folder Include="Feutures\Language\Validators\" />
+	  <Folder Include="Feutures\OrderMethod\Commands\" />
+	  <Folder Include="Feutures\OrderMethod\Dtos\" />
+	  <Folder Include="Feutures\OrderMethod\Queries\" />
+	  <Folder Include="Feutures\OrderMethod\Validators\" />
+	  <Folder Include="Feutures\Order\Commands\" />
+	  <Folder Include="Feutures\Order\Dtos\" />
+	  <Folder Include="Feutures\Order\Queries\" />
+	  <Folder Include="Feutures\Order\Validators\" />
+	  <Folder Include="Feutures\Price\Commands\" />
+	  <Folder Include="Feutures\Price\Dtos\" />
+	  <Folder Include="Feutures\Price\Queries\" />
+	  <Folder Include="Feutures\Price\Validators\" />
+	  <Folder Include="Feutures\Sale\Commands\" />
+	  <Folder Include="Feutures\Sale\Dtos\" />
+	  <Folder Include="Feutures\Sale\Queries\" />
+	  <Folder Include="Feutures\Sale\Validators\" />
+	  <Folder Include="Feutures\State\Commands\" />
+	  <Folder Include="Feutures\State\Dtos\" />
+	  <Folder Include="Feutures\State\Queries\" />
+	  <Folder Include="Feutures\State\Validators\" />
+	  <Folder Include="Feutures\Topic\Commands\" />
+	  <Folder Include="Feutures\Topic\Dtos\" />
+	  <Folder Include="Feutures\Topic\Queries\" />
+	  <Folder Include="Feutures\Topic\Validators\" />
+	  <Folder Include="Feutures\WishList\Commands\" />
+	  <Folder Include="Feutures\WishList\Dtos\" />
+	  <Folder Include="Feutures\WishList\Queries\" />
+	  <Folder Include="Feutures\WishList\Validators\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="10.1.1" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+	  <PackageReference Include="FluentValidation" Version="11.2.2" />
+	  <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.2" />
+	  <PackageReference Include="MediatR" Version="11.0.0" />
+	  <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Core\Core.csproj" />
+	</ItemGroup>
+
+</Project>

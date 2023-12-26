@@ -1,0 +1,14 @@
+﻿global using BookShop.Application.Common.Services.Repositories;
+global using BookShop.Domain.Entities;
+global using BookShop.Infrastructure.Persistance.Contexts;
+global using Core.Repositories.Concrete;
+global using BookShop.Application.Common.Services.DateTimeService;
+global using BookShop.Infrastructure.Persistance.Interceptors;
+global using BookShop.Infrastructure.Services;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using BookShop.Domain.Entities.Auth;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using System.Reflection;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
